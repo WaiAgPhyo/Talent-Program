@@ -1,0 +1,30 @@
+.background{
+    background-image: url(../img/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.h-head{
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+    font-style:inherit;
+}
+.h-head > h1{
+    font-size: 70px;  
+}
+.h-head > p{
+    font-size: 20px;
+    width: 600px;
+    line-height: 1.5;
+}
+.btn{
+    background-color: #D7B6A5;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}

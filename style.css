@@ -1,0 +1,20 @@
+.h-head{
+    margin-left: 500px;
+    width: 400px;
+    height: 350px;
+    background-color: #DFF1D8;
+    background-image: url(../img/pic1.jpg);
+    background-position: 400px 500px;
+    border: 1px solid;
+}
+.h-head > p{
+    font-size: 16;
+    font-style:italic;
+    font-weight: 900;
+    color: #E93F2E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    padding: 5px;
+    text-shadow: 0.8px 1px #E1C9A4;
+}
+
