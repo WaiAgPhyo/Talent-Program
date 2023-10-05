@@ -3,7 +3,6 @@ footer address,
     background-color: cyan; 
     text-align: center; 
     /* width: 100%; */
-    text-align: center;
     padding: 20px;
 }
 .h-head__logo a{
@@ -109,6 +108,22 @@ footer address,
     margin: 0 auto;
     line-height: 30px;
 }  
+.top{
+    background-color:black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 10px 5px auto;
+}
+.top a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
 @media screen and (max-width: 400px){
     .card-img{
         width: 135px;
