@@ -1,0 +1,59 @@
+body {
+  background-color: #cfcfcf;
+}
+body .inner {
+  width: 700px;
+  margin: 40px auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+body .inner .block {
+  padding: 50px 30px 50px;
+}
+body .inner .block h2 {
+  font-size: 25px;
+  font-weight: 600;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 20px;
+}
+body .inner .block-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-bottom: 1px solid #cfcfcf;
+}
+body .inner .block-card .card {
+  width: 47%;
+}
+body .inner .block-card .card .card__img img {
+  width: 100%;
+  display: block;
+}
+body .inner .block-card .card .card__text {
+  padding: 20px;
+}
+body .inner .block-card .card .card__text p {
+  text-align: center;
+}
+body .inner .btn {
+  width: 120px;
+  margin: 0 auto;
+}
+body .inner .btn a {
+  text-decoration: none;
+  border: 1px solid;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  body .inner {
+    width: 400px;
+  }
+}/*# sourceMappingURL=photogallery.css.map */
