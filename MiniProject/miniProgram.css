@@ -1,0 +1,150 @@
+footer address,
+.h-head__logo{
+    background-color: cyan; 
+    text-align: center; 
+    /* width: 100%; */
+    padding: 20px;
+}
+.h-head__logo a{
+    text-decoration: none;
+    font-size: 1.5rem;  
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:inherit;
+}
+.h-navi{
+    background-color: brown;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+.h-navi ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.h-navi li{
+    width: calc(100% /3);
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+.h-navi li:last-child{
+    border-right: 1px solid #fff;
+}
+.h-navi a{
+   color: antiquewhite;
+   text-decoration: none;
+   width: 100%;
+   height: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-pic{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.card-img{
+    width: 30%;
+    margin: 0 20px 50px 0;
+}
+/* .card-img:nth-of-type(3n+3),
+.card-img:last-child{
+    margin-right: 0;
+} */
+.card-img a{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    display: block;
+    transition: all 4s ease;
+}
+.card-img img:hover{
+    transform: scale(1.5);
+}
+.card-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.faq{  
+    margin-bottom: 30px;
+    /* display: none; */
+}
+.faq-head{
+    width: 70%;
+    color: #fff;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+.faq-head a{
+    text-decoration: none;
+    color: #000;
+}
+.faq-head h2{
+    width: 850px;
+    display: flex;
+    margin-right: 0;
+    height: auto;
+}
+.faq-body{
+    width: 65%;
+    color: black;
+    background-color: #fff; 
+    margin: 0 auto;
+    line-height: 30px;
+    display: none;
+}  
+ .show .faq-body{
+    display: block;
+}
+.top{
+    background-color:black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 10px 5px auto;
+}
+.top a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 400px){
+    .card-img{
+        width: 135px;
+        height: 135px;
+    }
+    .card-img:nth-of-type(2n+1){
+            margin-left: 7%;
+    }
+    .faq-body{
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 800px){
+    .card-img{
+        width: 120px;
+        height: 120px;
+    }
+}
