@@ -1,0 +1,47 @@
+.email-bloc{
+    width: 1518px;
+    margin: 0 auto 180px;
+    .c-bloc{
+        position: relative;
+        .c-bloc__txt{
+            width: 616px;
+            position: absolute;
+            top: 111px;
+            left: 100px;
+            text-align: left;
+            line-height: 1.5;
+            h5{
+                font-size: 40px;
+                font-weight: 900;
+            }
+            p{
+                width: 486px;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            .txt-box{
+                position: relative;
+                width: 560px;
+                input{
+                    width: 100%;
+                    padding: 25px;
+                    border-radius: 20px;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                a{
+                    width: 50px;
+                    position: absolute;
+                    top: 12px;
+                    right: -35px;
+                    img{
+                        width: 100%;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

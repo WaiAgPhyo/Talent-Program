@@ -1,0 +1,45 @@
+.mainvisual {
+  background-image: url(../img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.mainvisual__text {
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.5;
+}
+.mainvisual__text h2 {
+  color: #FFFFFF;
+  font-size: 81px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+}
+.mainvisual__text p {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.mainvisual__text .c-btn--discover {
+  width: 175px;
+  background-color: #E76F51;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.mainvisual__text .c-btn--discover a {
+  width: 100%;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}/*# sourceMappingURL=mainvisual.css.map */

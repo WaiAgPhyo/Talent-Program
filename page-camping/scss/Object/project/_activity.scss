@@ -1,0 +1,110 @@
+.c-wrap-activity{
+    width: 1518px;
+    margin: 0 auto;
+    .c-card-txt{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+        img{
+            max-width:90px;     
+            margin-bottom:40px;
+        }
+        h4{
+            max-width: 408px;
+            font-size: 40px;
+            margin-bottom:61px;
+            text-align: center;
+            line-height: 1.3;
+        }
+    }
+
+    .c-card-activity{
+        width: 1518px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        .container{
+            width: 357px;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            margin-bottom: 30px;
+            &__inner{
+                padding: 40px;
+                position: relative;
+                .img-box{
+                    width: 277px;
+                    img{
+                        max-width: 277px;
+                    }
+                    .favorite{
+                        position: absolute;
+                        max-width: 40px;
+                        top: 50px;
+                        right: 50px;
+                        border-radius: 30%;
+                        background-color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 5px;
+                    }
+                }
+                .txt-box{
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .price{
+                        border: 1px solid #fff;
+                        width: 125px;
+                        background-color: #fff;
+                        position: absolute;
+                        padding: 10PX;
+                        margin-top: -180px;
+                        border-radius: 10px;
+                        color: #E76F51;
+                    }
+                    h4{
+                        font-size: 18px;
+                        font-weight: 900;
+                        margin-top: 40px;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 1.3;
+                        margin-bottom: 30px;
+                        color: #3B3735;
+                    }
+                    .c-btn--read{
+                        width: 155px;
+                        margin: 0 auto;
+                        background-color: #fff;
+                        a{
+                            text-decoration: none;
+                            color: #8D8D8D;
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .c-btn--view{
+        width: 175px;
+        border: 1px solid #E76F51;
+        margin: 30px auto 150px;
+        a{
+            text-decoration: none;
+            color: #E76F51;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}

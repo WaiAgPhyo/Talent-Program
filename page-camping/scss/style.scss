@@ -1,0 +1,12 @@
+@import 'Foundation/reset';
+@import 'Layout/header';
+@import 'Object/project/mainvisual';
+@import 'Object/component/btn';
+@import 'Object/project/content';
+@import 'Object/project/activity';
+@import 'Object/project/email-bloc';
+@import 'Layout/footer';
+
+body{
+    background-color: #FAF4F2;
+}

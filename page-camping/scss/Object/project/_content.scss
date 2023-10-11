@@ -1,0 +1,36 @@
+.c-content{
+    width: 1518px;
+    display: flex;
+    justify-content: space-between;
+    margin: -115px auto 150px;
+    .c-card__inner{
+        width: 357px;
+        height: 100%;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        .c-card__bloc{
+            padding: 60px 40px;
+            margin: 0 auto;
+            .img-box{
+                width: 90px;
+                padding-bottom: 20px;
+                margin: 0 auto;
+                img{
+                    max-width: 100%;
+                }
+            }
+            .txt-box{
+                color: #3B3735;
+                text-align: center;
+                h3{
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
