@@ -4,6 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    z-index: 1;
     a{
         text-decoration: none;
         color: #D2D2D2;
@@ -11,11 +12,14 @@
         font-weight: 400;
         font-size: 18px;
     }
+ 
+
     .l-head__container{
         width: 80%;
         justify-content: space-between;
         margin: 0 auto;
         display: flex;
+     
         .l-head__list{
             display: flex;
             width: 892px;
@@ -59,7 +63,7 @@
             }
         }
         .l-head__sign{
-            display: flex;
+            display: flex; 
             .c-btn--signup{
                 border: 0px;
                a{
@@ -75,5 +79,71 @@
                 }
             } 
         }  
+        .menu-bar{
+            display: none;
+        }
     }
 }
+@media screen and (max-width: 800px){
+    .l-head{   
+        .l-head__container{
+            width: 98%;
+            position: relative;
+            .l-head__list{
+                .show-menu{
+                    display: none;
+                }
+                .navi{
+                    position: relative;
+                    width: 320px;
+                    // margin-right: -450px;
+                    margin-top: 50px;
+                    background-color: #000000;
+                    border-radius: 20px;
+                  
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        li{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            a{
+                                padding: 15px; 
+                                position: relative;
+                                &:hover{
+                                    color: #fff;
+                                    width: 100%;
+                                    border: 1px solid #fff;
+                                    border-radius: 10px;
+                                    text-align: center;
+                                }
+                            } 
+                            a.active::after{
+                                content: "";
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .l-head__sign{
+                display: none;
+            }
+            .menu-bar{
+                position: absolute;
+                display: flex;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 20px;
+                right: 0;
+                img{
+                    width: 100%;
+                }
+            }
+        }    
+    }
+}
+
+

@@ -58,6 +58,7 @@ table {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  z-index: 1;
 }
 .l-head a {
   text-decoration: none;
@@ -128,7 +129,65 @@ table {
 .l-head .l-head__container .l-head__sign .c-btn--signin a {
   color: #fff;
 }
+.l-head .l-head__container .menu-bar {
+  display: none;
+}
 
+@media screen and (max-width: 800px) {
+  .l-head .l-head__container {
+    width: 98%;
+    position: relative;
+  }
+  .l-head .l-head__container .l-head__list .show-menu {
+    display: none;
+  }
+  .l-head .l-head__container .l-head__list .navi {
+    position: relative;
+    width: 320px;
+    margin-top: 50px;
+    background-color: #000000;
+    border-radius: 20px;
+  }
+  .l-head .l-head__container .l-head__list .navi ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .l-head .l-head__container .l-head__list .navi ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .l-head .l-head__container .l-head__list .navi ul li a {
+    padding: 15px;
+    position: relative;
+  }
+  .l-head .l-head__container .l-head__list .navi ul li a:hover {
+    color: #fff;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .l-head .l-head__container .l-head__list .navi ul li a.active::after {
+    content: "";
+    display: none;
+  }
+  .l-head .l-head__container .l-head__sign {
+    display: none;
+  }
+  .l-head .l-head__container .menu-bar {
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    right: 0;
+  }
+  .l-head .l-head__container .menu-bar img {
+    width: 100%;
+  }
+}
 .mainvisual {
   background-image: url(../img/BG.png);
   background-repeat: no-repeat;
@@ -176,13 +235,17 @@ table {
 }
 
 .c-btn {
-  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.c-btn a {
+  width: 100px;
+  text-align: center;
   padding: 15px;
   border: 1px solid #fff;
   border-radius: 30px;
+  text-decoration: none;
 }
 
 .c-content {
@@ -310,7 +373,7 @@ table {
 .c-wrap-activity .c-card-activity .container__inner .txt-box .c-btn--read {
   width: 155px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #8D8D8D;
 }
 .c-wrap-activity .c-card-activity .container__inner .txt-box .c-btn--read a {
   text-decoration: none;
